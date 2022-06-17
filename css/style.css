@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Netflix-Sans;
+    src: url(NetflixSansRegular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix-Sans;
+}
+
+/* FAQ */
+
+#faq {
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+#faq h1 {
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+#faq .question, #faq .answer {
+    font-size: 25px;
+    background-color: #313131;
+    padding: 20px;
+    width: 750px;
+}
+
+#faq .question {
+    border-bottom: 1px solid #000;
+    margin-top: 8px;
+}
+
+#faq .answer {
+    display: none;
+}
+
+/* END - FAQ */
