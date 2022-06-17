@@ -22,6 +22,7 @@
 #faq h1 {
     font-size: 39px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #faq .question, #faq .answer {
@@ -29,11 +30,21 @@
     background-color: #313131;
     padding: 20px;
     width: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #faq .question {
     border-bottom: 1px solid #000;
     margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#faq .question img {
+    width: 25px;
+    height: 25px;
 }
 
 #faq .answer {
